@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
@@ -35,7 +35,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-bq
 # Device identifier. This must come after all inclusions
 TARGET_VENDOR := bq
 PRODUCT_DEVICE := bardockpro
-PRODUCT_NAME := lineage_bardockpro
+PRODUCT_NAME := lmodroid_bardockpro
 PRODUCT_BRAND := bq
 PRODUCT_MODEL := Aquaris X Pro
 PRODUCT_MANUFACTURER := bq

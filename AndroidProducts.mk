@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_bardockpro.mk
+    $(LOCAL_DIR)/lmodroid_bardockpro.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_bardockpro-userdebug \
-    lineage_bardockpro-eng
+    lmodroid_bardockpro-userdebug \
+    lmodroid_bardockpro-eng
